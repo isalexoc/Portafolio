@@ -95,6 +95,7 @@ h2{
 
 .project-description{
     font-size: 20px;
+    text-align: justify;
 }
 
 .project strong{
@@ -120,7 +121,7 @@ h2{
 }
 
 .hero{
-    height: 300px;
+    height: 315px;
     background-color: #1b2127;
     display: flex;
     align-items: center;
@@ -130,15 +131,16 @@ h2{
 
 .hero-image{
     object-fit: cover;
+    margin-top: 15px;
 }
 
 .header{
     background-color: #1b2127;
     color: white;
     display: flex;
-    height: 70px;
+    height: 130px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0px;
     flex-wrap: wrap;
 }
@@ -148,11 +150,27 @@ header ol{
     list-style: none;
 }
 
+header li:hover{
+    background-color:rgba(116, 116, 116, 0.8);
+}
+
 header a{
     text-decoration: none;
     color: white;
     margin: 0;
     padding: 10px 20px;
+}
+
+.logo{
+
+}
+
+li{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin: 0 5px;
 }
 
 ol, ul{
