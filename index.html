@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Isaac Orraiz</title>
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos/estilos.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <i class="icon-menu burguer-button" id="burguer-menu"></i>
+        <header class="header">
+            <div class="container">
+                <figure class="logo">
+                    <img src="images/logo.png" height="50px" alt="Logo de http://leonidasesteban.com">
+                </figure>
+                <nav class="menu">
+                    <ol>
+                        <li>
+                            <a class="link" href="#portafolio">portafolio</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#eventos">experiencia</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#contacto">trabajemos juntos</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="container">
+
+                <h1>
+                    Hola! Soy <strong>Isaac Orraiz</strong><br> Desarrollador <strong>Javascript</strong> con <br> Pasión por la <strong>Enseñanza</strong>
+                </h1>
+                <img class="hero-image" src="images/hero.jpg" width="500" height="300" alt="imágen principal del sitio">
+            </div>
+        </section> 
+        <section id="portafolio" class="portfolio">
+            <div class="container">
+
+                <h2>Portafolio (Proyectos Destacados)</h2>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Platzi Video</h3>
+                        <h6 class="project-course">React Native / React</h6>
+                        <p class="project-date"><small><strong>Fecha: </strong>01/07/2018</small></p>
+                        <p class="project-url"><small><strong>Puedes Verlo en: </strong>www.platzi.com/native</small></p>
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam asperiores dignissimos alias nesciunt corrupti nemo facere praesentium? Officia exercitationem delectus fugiat consectetur nulla accusantium hic, ea aut non sapiente vero!</p>
+                    </div>
+                    <figure class="project-imageWrapper">
+                        <img class="project-image" src="images/platzi-video-react-native.png" alt="proyecto del curso de react native" width="500">
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <div class="html-video">
+            <video class="idvid" src="videos/f8.mp4" width="1024" height="640" controls>
+            </video>
+        </div>
+        <div class="container">
+
+            <h2 class="event-list-title">Más sobre mi experiencia</h2>
+        </div>
+        <section id="eventos" class="event-list">
+            <div class="container">
+
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="images/platzi-conf.jpg" width="500">
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">PlatziConf México 2018</h3>
+                        <p class="event-description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eum odio consequuntur animi sit cumque libero doloribus nemo, beatae repudiandae!</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Pática</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="images/platzi-conf.jpg" width="500">
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">PlatziConf México 2018</h3>
+                        <p class="event-description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eum odio consequuntur animi sit cumque libero doloribus nemo, beatae repudiandae!</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Pática</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="images/platzi-conf.jpg" width="500">
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">PlatziConf México 2018</h3>
+                        <p class="event-description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eum odio consequuntur animi sit cumque libero doloribus nemo, beatae repudiandae!</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Pática</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="images/platzi-conf.jpg" width="500">
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">PlatziConf México 2018</h3>
+                        <p class="event-description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eum odio consequuntur animi sit cumque libero doloribus nemo, beatae repudiandae!</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Pática</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="contacto" class="contact">
+            <div class="container">
+
+                <form action="/suscripcion/" class="form-email">
+                    <h3>¿Creamos algo juntos?</h3>
+                    <input type="datetime" placeholder="Déjame tu e-mail" id="email">
+                    <button>Enviar</button>
+                </form>
+                <div class="social">
+                    <a target="_blank" href="https://twitter.com/leonidasesteban" class="social-link twitter"></a>
+                    <a target="_blank" href="https://facebook.com/leonidas.esteban" class="social-link facebook"></a>
+                    <a target="_blank" href="https://github.com/leonidasesteban" class="social-link github"></a>
+                    <a target="_blank" href="https://instagram.com/leonidasesteban" class="social-link instagram"></a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+
+                <div>
+                    <p class="firstUp">Curso de desarrollo web online 2018 <img src="images/platzi.png" width="80px" alt="plazti"></p>
+                </div>
+                <div>
+                    <p class="firstUp">
+                        designed with <\3 by <a href="https://twitter.com/thespianartist">@thespianartist</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script>
+            console.log('Hola mundo es mi primera linea en JS');
+            const burguerButton = document.querySelector('#burguer-menu');
+            const menu = document.querySelector('.menu');
+            const ipad = window.matchMedia('screen and (max-width: 767px)');
+            console.log(menu);
+            console.log(burguerButton);
+            console.log(window.matchMedia('screen and (max-width: 767px)'));
+
+            ipad.addListener(validation);
+
+            function validation(event) {
+                if (event.matches) {
+                    burguerButton.addEventListener('click', hideShow);
+                }
+                else{
+                    burguerButton.removeEventListener('click', hideShow);
+                }
+                console.log(event);
+            }
+
+            validation(ipad);
+
+            function hideShow(){
+                if (menu.classList.contains('is-active')) {
+                    menu.classList.remove('is-active')
+                }
+                else {
+                    menu.classList.add('is-active');
+                }
+            }
+
+            //burguerButton.addEventListener('click', hideShow);
+
+            
+        </script>    
+    </body>
+</html>
