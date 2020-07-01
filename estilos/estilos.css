@@ -194,6 +194,10 @@ ol, ul{
     padding: 20px;
 }
 
+.foocen{
+    margin: auto;
+}
+
 .firstUp{
     text-transform: capitalize;
 }
@@ -285,10 +289,17 @@ ol, ul{
     margin: 0 10px;
 }
 
+.social-link:hover{
+    background-color: rgba(0, 0, 0, .4);
+    border: 1px solid rgba(194, 192, 192, 0.8);
+    border-radius: 10px;
+}
+
 .social-link.twitter{
     background-image: url('../images/twitter.svg');
     background-size: 50px 50px;
 }
+
 
 .social-link.facebook{
     background-image: url('../images/facebook.svg');
