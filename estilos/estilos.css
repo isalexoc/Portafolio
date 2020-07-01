@@ -201,6 +201,18 @@ ol, ul{
 .firstUp{
     text-transform: capitalize;
 }
+
+.forback{
+    background-color: #1b2127;
+}
+.forblue{
+    background-color: #F0F8FF;
+}
+
+.wlt{
+    color: white;
+}
+
 .footer{
     color: white;
     background-color: #1b2127;
