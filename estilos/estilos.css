@@ -132,6 +132,7 @@ h2{
 .hero-image{
     object-fit: cover;
     margin-top: 15px;
+    height: 280px;
 }
 
 .header{
