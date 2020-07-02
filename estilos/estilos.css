@@ -84,6 +84,7 @@ h2{
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
+    margin-bottom: 10px;
 }
 
 .project-date,
@@ -158,10 +159,6 @@ header a{
     color: white;
     margin: 0;
     padding: 10px 20px;
-}
-
-.logo{
-
 }
 
 li{
@@ -386,6 +383,10 @@ ol, ul{
     color: white;
 }
 
+/* .for425{
+    padding-bottom: 100px;
+} */
+
 @media screen and (max-width: 1023px) {
 
     .event-list-title{
@@ -441,7 +442,54 @@ ol, ul{
     }
 }
 
+@media screen and (max-width: 1023px) {
+    .project{
+        margin-bottom: 0;
+    }
+
+    h2 {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+
+    .container{
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .burguer-button{
+        display: block;
+    }
+
+    .menu{
+        position: fixed;
+        background-color:rgba(5, 111, 255, 0.9);
+        z-index: 3;
+        top: 0;
+        left: -120vw;
+        width: 100vw;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    }
+
+    .menu.is-active{
+        left: 0;
+    }
+
+    .header {
+        height: 70px;
+    }
+}
+
 @media screen and (max-width: 767px) {
+
+    .logo{
+        padding-top: 20px;
+    }
 
     h2{
         font-size: 1.2em;
@@ -450,13 +498,9 @@ ol, ul{
         padding-top: 20px;
     }
 
-    .burguer-button{
-        display: block;
-    }
-
     .header{
         display: block;
-        height: auto;
+        height: 70px;
         margin-top: -20px;
     }
 
@@ -478,24 +522,6 @@ ol, ul{
 
     .header .logo {
         text-align: center;
-    }
-
-    .menu{
-        position: fixed;
-        background-color:rgba(5, 111, 255, 0.9);
-        z-index: 3;
-        top: 0;
-        left: -100vw;
-        width: 100vw;
-        bottom: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: .3s;
-    }
-
-    .menu.is-active{
-        left: 0;
     }
 
     .project{
@@ -550,7 +576,7 @@ ol, ul{
         padding: 1em;
     }
     .container{
-        padding: 0 .5em;
+        padding: 0 .5em 10px .5em;
     }
 }
 
@@ -596,6 +622,11 @@ ol, ul{
         background: round;
     }
 }
+
+@media screen and (max-width: 425px) {
+    
+}
+
 
 @media screen and (max-width: 320px) {
     
