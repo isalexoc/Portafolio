@@ -609,7 +609,7 @@ table{
         margin-bottom: .3em;
     }
     .project-course{
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
     .project-date{
         font-size: 1em;
@@ -661,6 +661,15 @@ table{
         width: 120px;
     }
     
+}
+
+@media screen and (max-width: 550px) {
+    .imgtabla{
+        width: 50px;
+    }
+    .egt{
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (max-width: 518px) {
