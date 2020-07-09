@@ -421,6 +421,23 @@ ol, ul{
     color: white;
 }
 
+.imgtabla{
+    max-height: 100px;
+}
+.negritas{
+    font-weight: 900;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+.colored{
+    background-color: aliceblue;
+}
+.titled{
+    height: 50px;
+}
+
 /* .for425{
     padding-bottom: 100px;
 } */
